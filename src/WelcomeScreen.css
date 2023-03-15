@@ -22,7 +22,6 @@
   margin: 1rem;
   background-color: #4285f4;
   border-radius: 2px;
-  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
 }
 .google-btn:hover {
   box-shadow: 0 0 6px #4285f4;
@@ -32,8 +31,11 @@
 }
 .google-icon-wrapper {
   position: absolute;
-  margin: 0;
-  height: 100%;
+  margin-top: 2px;
+  margin-left: 2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 2px;
   background-color: #fff;
 }
 .google-icon {

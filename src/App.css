@@ -80,9 +80,10 @@ input[type="number"] {
   padding: 10px 10px 35px;
   margin-bottom: 10px;
   text-align: left;
-  border: 1px solid #ccc;
+  border: 3px solid #0b0b0b;
   border-radius: 4px;
   position: relative;
+  background-color: #c1bebe;
 }
 
 .details-btn {
@@ -115,9 +116,13 @@ input[type="number"] {
 }
 
 .numberOfEvents {
-  width: 200px;
-  margin: 20px auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
 }
 
 .button-wrapper {

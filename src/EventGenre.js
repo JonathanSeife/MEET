@@ -19,7 +19,7 @@ const EventGenre = ({ events }) => {
     return data.filter((entry) => entry.value > 0);
   };
 
-  const colors = ["#A3E4D7", "#F9E79F", "#EDBB99", "#7FB3D5", "#F1948A"];
+  const colors = ["#A3E4D7", "#f9d59f", "#EDBB99", "#7FB3D5", "#F1948A"];
 
   return (
     <ResponsiveContainer height={400}>
