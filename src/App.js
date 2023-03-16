@@ -110,6 +110,16 @@ class App extends Component {
                 left: 20,
               }}
             >
+              {" "}
+              <text
+                x={750 / 2}
+                y={5}
+                fill="black"
+                textAnchor="middle"
+                dominantBaseline="central"
+              >
+                <tspan fontSize="24">Events by City</tspan>
+              </text>
               <CartesianGrid />
               <XAxis type="category" dataKey="city" name="city" />
               <YAxis
